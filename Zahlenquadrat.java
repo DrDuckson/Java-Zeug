@@ -19,6 +19,5 @@ public class Zahlenquadrat {
                 }
             }
         }
-        System.out.println("Keine Lösung möglich.");
     }
 }
