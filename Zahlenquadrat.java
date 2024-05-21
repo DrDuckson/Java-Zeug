@@ -1,6 +1,6 @@
 public class Zahlenquadrat {
     public static void main(String[] args) {
-        for (int a = -100; a <= 100; a++) {
+        for (int a = -100; a <= 100; a++) { // Wenn a = 0 ist, kommt ein anderes Zahlenset raus
             for (int b = -100; b <= 100; b++) {
                 if (a * b == 15) {
                     int d = 12 - b;
