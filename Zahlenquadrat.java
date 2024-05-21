@@ -9,12 +9,11 @@ public class Zahlenquadrat {
                     // int c = 3 - a;  auch
                     // int d = c - 5;  möglich
                     if ((b + d == 12) && (a + c == 3)) { // && (a + c == 3) nicht wirklich nötig, man könnte da auch alle 4 Rechnungen abfragen...
-                        System.out.println("Ergebnis: " + i);
+                        System.out.println("Ergebnis: " + i); i++;
                         System.out.println("a = " + a); 
                         System.out.println("b = " + b);
                         System.out.println("c = " + c);
                         System.out.println("d = " + d);
-                        i++;
                     }
                 }
             }
